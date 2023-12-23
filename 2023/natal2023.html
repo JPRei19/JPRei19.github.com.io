@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #f62409, #f62409),
+            url('fundo');
+            background-size: cover;
+            background-color: #f8f8f8;
+            position: relative;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: transparent;
+            color: #f2f4f2;
+            border: 2px solid #f0e9e7;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin: 10px;
+            width: auto;
+        }
+
+        button:hover {
+            background-color: #cdeace;
+            color: white;
+        }
+
+        .letter {
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #26e46f;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .closing {
+            font-style: italic;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+    <title>Carta Romântica com Fundo de Natal</title>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="foto videos audios/musica de natal.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <button onclick="voltarPagina()">Voltar</button>
+
+    <script>
+        function voltarPagina() {
+            window.history.back();
+        }
+    </script>
+
+    <div class="letter">
+        <h1>Feliz Natal</h1>
+        
+        <p>Em meio a este universo que gira ao meu redor, há algo ainda mais extraordinário que merece toda a atenção: você❤️</p>
+
+        Esse é nosso segundo natal juntos e vamos continuar tento mais e cada um deles sendo melhor❤️</p>
+
+        <p> Esta tudo dando certo entre agente, eu estou feliz com isso, nosso relacionamento é muito bom, agente se entende muito bem cuida um do outro❤️
+        sempre resolvemos nossos poblemas com conversa, isso tudo parece algo comum em relacionamentos mas eu sei que não é comum.
+
+        <p>adoro passar meu tempo com vocé, quero cada vez mais te ver, Te amo minha princesa❤️ </p>
+        <p class="closing">Sinceramente seu,<br>Amor</p>
+    </div>
+</body>
+</html>
